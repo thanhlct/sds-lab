@@ -1,8 +1,10 @@
 Bigram (inform, from_stop, *)
-======
+========
 Using 100%  bigram
 
-#iter    train   valid   test
+=====   =====   =====   =====
+#iter   train   valid   test
+=====   =====   =====   =====
 0       0.588   0.444   0.541
 50      0.997   0.978   0.985
 100     0.998   0.978   0.985
@@ -20,6 +22,7 @@ Using 100%  bigram
 700     0.998   0.978   0.985
 750     0.998   0.978   0.985
 800     0.998   0.978   0.985
+=====   =====   =====   =====
 
 Using top 40% most frequent bigram
 
