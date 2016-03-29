@@ -1,11 +1,8 @@
 Bigram (inform, from_stop, *)
 ======
 Using 100%  bigram
--------------
 
-====    =====   ====    =====
-#iter   train   valid   test
-====    =====   ====    =====
+#iter    train   valid   test
 0       0.588   0.444   0.541
 50      0.997   0.978   0.985
 100     0.998   0.978   0.985
@@ -25,11 +22,8 @@ Using 100%  bigram
 800     0.998   0.978   0.985
 
 Using top 40% most frequent bigram
--------------
 
-====    =====   ====    =====
 #iter   train   valid   test
-====    =====   ====    =====
 0       0.570   0.615   0.600
 50      0.914   0.896   0.926
 100     0.925   0.911   0.948
@@ -50,11 +44,8 @@ Using top 40% most frequent bigram
 
 
 Using top 30% most frequent bigram
--------------
 
-====    =====   ====    =====
 #iter   train   valid   test
-====    =====   ====    =====
 0       0.287   0.237   0.289
 50      1.000   1.000   1.000
 100     1.000   1.000   1.000
@@ -74,13 +65,11 @@ Using top 30% most frequent bigram
 800     1.000   1.000   1.000
 
 Words (inform, from_stop, *)
-======
-Using 100% unigram
--------------
+-----------------
 
-====    =====   ====    =====
+Using 100% unigram
+
 #iter   train   valid   test
-====    =====   ====    =====
 0       0.283   0.326   0.348
 50      0.997   1.000   0.993
 100     0.999   1.000   0.993
@@ -94,11 +83,8 @@ Using 100% unigram
 500     0.999   1.000   0.993
 
 Using top 70% most frequent unigram
--------------
 
-====    =====   ====    =====
 #iter   train   valid   test
-====    =====   ====    =====
 0       0.467   0.452   0.489
 50      1.000   1.000   1.000
 100     1.000   1.000   1.000
@@ -112,11 +98,8 @@ Using top 70% most frequent unigram
 500     1.000   1.000   1.000
 
 Using top 50% most frequent unigram
--------------
 
-====    =====   ====    =====
 #iter   train   valid   test
-====    =====   ====    =====
 0       0.363   0.378   0.304
 50      1.000   1.000   1.000
 100     1.000   1.000   1.000
